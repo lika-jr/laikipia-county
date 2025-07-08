@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upcoming Events - Laikipia County</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .upcoming-events {
+      background: url("events1-bg.jpg") no-repeat center center/cover;
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .upcoming-events::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6); /* dark overlay for visibility */
+      z-index: 0;
+    }
+
+    .upcoming-events * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .upcoming-events h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #ffd700;
+    }
+
+    .event-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      color: white;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .event-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .event-card h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #ffd700;
+    }
+
+    .event-card p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="upcoming-events">
+    <h2>Upcoming Events</h2>
+
+    <div class="event-card">
+      <h3>Youth Empowerment Expo 2025</h3>
+      <p>Scheduled for September 5th. Registration ongoing! Engage with mentors and explore digital innovation opportunities.</p>
+    </div>
+
+    <div class="event-card">
+      <h3>Smart County Services Launch</h3>
+      <p>Come explore the future of digital governance in Laikipia. Experience public Wi-Fi, real-time reporting, and smart service access.</p>
+    </div>
+
+    <div class="event-card">
+      <h3>Digital Skills Training Bootcamp</h3>
+      <p>Starts October 2025. Free training sessions on digital literacy, coding, and data analytics.</p>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ICT Innovation Challenge | Laikipia County</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    nav {
+      background: #2e8b57;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    nav img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('ict-bg.jpg') no-repeat center center/cover;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+
+    .hero * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+      color: #ffd700;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .content h2 {
+      font-size: 36px;
+      color: #2e8b57;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .content p {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .info-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .info-card i {
+      font-size: 36px;
+      color: #2e8b57;
+      margin-bottom: 15px;
+    }
+
+    .info-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #2e8b57;
+    }
+
+    .info-card p {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .apply-button {
+      display: inline-block;
+      background: #ffd700;
+      color: black;
+      padding: 14px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-top: 20px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .apply-button:hover {
+      background: #e6c200;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <img src="logo.png" alt="Laikipia County Logo">
+    <label class="logo">LAIKIPIA</label>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="team.html">SUPPORT</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>ICT Innovation Challenge</h1>
+    <h2>Unleashing Innovation for a Smarter Laikipia</h2>
+  </section>
+
+  <!-- Details -->
+  <section class="content">
+    <h2>Join the Movement</h2>
+    <p>
+      The Laikipia County ICT Innovation Challenge invites tech enthusiasts, students, developers, and organizations to create digital solutions to real-world challenges in Laikipia.
+    </p>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <i class="fas fa-users"></i>
+        <h3>Who Can Apply</h3>
+        <p>
+          Open to students, tech innovators, startups, and local organizations with creative tech-based ideas.
+        </p>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-lightbulb"></i>
+        <h3>What We’re Looking For</h3>
+        <p>
+          Solutions in health, agriculture, education, youth empowerment, and smart governance using ICT.
+        </p>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-award"></i>
+        <h3>Benefits & Awards</h3>
+        <p>
+          Winners receive funding, mentorship, county support, and access to innovation hubs.
+        </p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a href="https://forms.gle/phDqvo1ea96Snhb68" target="_blank" class="apply-button">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Laikipia County Government</p>
+    <p>
+      Follow us on 
+      <a href="https://twitter.com/LaikipiaCountyG" target="_blank">Twitter</a> and 
+      <a href="https://facebook.com/CountyGovernmentofLaikipia" target="_blank">Facebook</a>
+    </p>
+  </footer>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Support Team | Laikipia County</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    nav {
+      background: #2e8b57;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    nav img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.6)), url("ict-support.jpg") no-repeat center center/cover;
+      text-align: center;
+      padding: 100px 20px;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      color: #ffd700;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .team-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .team-section h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #2e8b57;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .team-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .team-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .team-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #2e8b57;
+    }
+
+    .team-card h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .team-card p {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .team-card a {
+      text-decoration: none;
+      color: #1e90ff;
+      font-weight: bold;
+    }
+
+    .team-card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div style="display: flex; align-items: center;">
+      <img src="logo.png" alt="Laikipia County Logo">
+      <label class="logo">LAIKIPIA</label>
+    </div>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="team.html">SUPPORT</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Our Support Team</h1>
+    <p>Get in touch with our ICT and administrative support staff for assistance with applications, queries, and county ICT initiatives.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <h2>Meet the Team</h2>
+    <div class="team-grid">
+      
+      <!-- James Lekamario -->
+      <div class="team-card">
+        <img src="me.jpg" alt="James Lekamario">
+        <h3>James Lekamario</h3>
+        <p>ICT Technical Director</p>
+        <a href="mailto:jameslekamario@gmail.com">
+          <i class="fas fa-envelope"></i> jameslekamario@gmail.com
+        </a>
+      </div>
+
+      <!-- Godfrey Kiche -->
+      <div class="team-card">
+        <img src="support1.jpg" alt="Godfrey Kiche">
+        <h3>Godfrey Kiche</h3>
+        <p>ICT Technical Director</p>
+        <a href="mailto:godfreykiche@laikipia.go.ke"><i class="fas fa-envelope"></i> Email</a>
+      </div>
+
+      <!-- Ones Senior -->
+      <div class="team-card">
+        <img src="support2.jpg" alt="Ones Senior">
+        <h3>Ones Senior</h3>
+        <p>ICT Technical Director</p>
+        <a href="mailto:onessenior@laikipia.go.ke"><i class="fas fa-envelope"></i> Email</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Laikipia County Government</p>
+    <p>
+      Follow us on 
+      <a href="https://twitter.com/LaikipiaCountyG" target="_blank">Twitter</a> and 
+      <a href="https://facebook.com/CountyGovernmentofLaikipia" target="_blank">Facebook</a>
+    </p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
